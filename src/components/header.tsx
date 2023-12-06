@@ -12,10 +12,10 @@ function Header() {
         src="./assets/sprite.svg#logo-view"
         alt=""
        />
-       <span className="">Tweakful</span>
+       <span className="text-24 font-700 mr-[53px]">Tweakful</span>
       </a>
       <nav className="">
-       <ul className="flex">
+       <ul className="flex gap-[31px] text-t-dark2">
         <li className="">
          <a href="#" className="">
           Home
