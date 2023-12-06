@@ -1,0 +1,11 @@
+:root {
+ --sz-16: 16px;
+ /* --sz-: px; */
+
+ --tx-black: #000;
+ --tx-white: #fff;
+ --bg-black: #000;
+ --bg-white: #fff;
+}
+/* :root.dark {
+} */
