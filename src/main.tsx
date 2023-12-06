@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom/client';
 import './assets/css/vars.css';
+// import './assets/css/fonts.css';
 import './assets/css/custom-reset.css';
 import './assets/css/index.css';
 import './assets/css/animation.css';

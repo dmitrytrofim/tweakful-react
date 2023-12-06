@@ -8,7 +8,9 @@ function Index() {
    <Header />
    <Main>
     <section>
-     <Container>test</Container>
+     <Container>
+      <span></span>
+     </Container>
     </section>
    </Main>
    <Footer />

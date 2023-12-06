@@ -19,7 +19,7 @@ export function Container({
 }
 
 Container.defaultProps = {
- cls: 'max-w-[1200px]',
+ cls: 'max-w-[1130px]',
 };
 
 export function Main({
