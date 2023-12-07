@@ -1,4 +1,5 @@
 import { Wrapper, Container, Main } from '../components/common';
+import { Title1 } from '../components/elements';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
@@ -11,9 +12,7 @@ function Index() {
      <Container>
       <div className="">
        <div className="">
-        <h1 className="">
-         This headline is the gist of the Your whole Website{' '}
-        </h1>
+        <Title1>This headline is the gist of the Your whole Website </Title1>
         <p className="">
          And the description of hero section is follow up message after the
          punch of a great headline. So, make it short, simple, descriptive and
@@ -21,7 +20,7 @@ function Index() {
         </p>
         <div className="">
          <a href="#" className=""></a>
-         <p className="Here you can put secondary action statement & CTA"></p>
+         <p className="">Here you can put secondary action statement & CTA</p>
         </div>
         <div className="">
          <img
