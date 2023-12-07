@@ -20,10 +20,6 @@ export default defineConfig({
      src: 'src/assets/fonts/*',
      dest: 'assets/fonts',
     },
-    {
-     src: 'src/assets/sprite.svg',
-     dest: 'assets',
-    },
    ],
   }),
  ],
