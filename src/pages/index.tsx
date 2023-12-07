@@ -1,19 +1,20 @@
 import { Wrapper, Container, Main } from '../components/common';
-import { Title1 } from '../components/elements';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
 function Index() {
  return (
   <Wrapper>
-   <Header />
+   <Header cls="mb-[145px]" />
    <Main>
     <section>
      <Container>
-      <div className="">
+      <div className="flex gap-[100px]">
        <div className="">
-        <Title1>This headline is the gist of the Your whole Website </Title1>
-        <p className="">
+        <h1 className="title text-64 tracking-[-1.16px] leading-[1.12] mb-[30px]">
+         This headline is the gist of the Your whole Website
+        </h1>
+        <p className="text-20">
          And the description of hero section is follow up message after the
          punch of a great headline. So, make it short, simple, descriptive and
          to the point.
@@ -31,9 +32,9 @@ function Index() {
          />
         </div>
        </div>
-       <div className="i-wrap">
+       <div className="i-wrap shrink-0 w-[460px]">
         <img
-         className="i-full"
+         className="i-full object-top"
          src="./assets/img/woman-1.webp "
          alt="Woman"
          loading="lazy"

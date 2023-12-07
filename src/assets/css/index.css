@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 @layer components {
+ /* .example {
+  background-color: theme('colors.white');
+  border-radius: theme('borderRadius.lg');
+  padding: theme('spacing.6');
+  box-shadow: theme('boxShadow.xl');
+ } */
  .i-wrap {
   position: relative;
   display: flex;
@@ -16,5 +22,12 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+ }
+ .title {
+  font-size: theme('fontSize.52');
+  font-weight: theme('fontWeight.700');
+  line-height: 1.2;
+  letter-spacing: -0.94px;
+  text-transform: capitalize;
  }
 }

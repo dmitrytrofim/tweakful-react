@@ -1,8 +1,8 @@
 import { Container } from './common';
 
-function Header() {
+function Header({ cls }: { cls: string }) {
  return (
-  <header>
+  <header className={cls}>
    <Container>
     <div className="min-h-[80px] flex justify-between items-center">
      <div className="flex items-center">
@@ -50,5 +50,9 @@ function Header() {
   </header>
  );
 }
+
+Header.defaultProps = {
+ cls: '',
+};
 
 export default Header;

@@ -2,7 +2,7 @@ import React from 'react';
 
 export function Wrapper({ children }: { children: React.ReactNode }) {
  return (
-  <div className="font-inter font-400 text-16 leading-n text-t-black bg-b-white relative grid min-h-screen grid-cols-[minmax(300px,_1fr)] grid-rows-[auto,_1fr,_auto] overflow-hidden">
+  <div className="font-inter font-400 text-16 leading-[1.2] text-t-black bg-b-white relative grid min-h-screen grid-cols-[minmax(300px,_1fr)] grid-rows-[auto,_1fr,_auto] overflow-hidden">
    {children}
   </div>
  );
@@ -19,7 +19,7 @@ export function Container({
 }
 
 Container.defaultProps = {
- cls: 'max-w-[1130px]',
+ cls: 'max-w-[1220px]',
 };
 
 export function Main({
