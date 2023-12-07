@@ -25,6 +25,7 @@ export default {
    't-dark2': 'var(--tx-dark2)',
    'b-white': 'var(--bg-white)',
    'b-black': 'var(--bg-black)',
+   'b-blue': 'var(--bg-blue)',
   },
   fontWeight: {
    300: '300',

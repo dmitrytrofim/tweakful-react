@@ -27,7 +27,30 @@
   font-size: theme('fontSize.52');
   font-weight: theme('fontWeight.700');
   line-height: 1.2;
-  letter-spacing: -0.94px;
   text-transform: capitalize;
+ }
+ .btn {
+  position: relative;
+  display: inline-flex;
+  white-space: nowrap;
+  background-color: theme('colors.b-blue');
+  padding: 15px 55px 15px 25px;
+ }
+ .btn::after {
+  position: absolute;
+  content: '';
+  top: calc(50% - 5px);
+  right: 25px;
+  width: 40px;
+  height: 20px;
+  mask-image: url('./assets/sprite.svg#arrow');
+  -webkit-mask-image: url('./assets/sprite.svg#arrow');
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-position: center;
+  -webkit-mask-position: center;
+  background: red;
  }
 }

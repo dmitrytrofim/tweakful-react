@@ -11,16 +11,18 @@ function Index() {
      <Container>
       <div className="flex gap-[100px]">
        <div className="">
-        <h1 className="title text-64 tracking-[-1.16px] leading-[1.12] mb-[30px]">
+        <h1 className="title text-64 leading-[1.12] mb-[30px]">
          This headline is the gist of the Your whole Website
         </h1>
-        <p className="text-20">
+        <p className="text-20 mb-[42px]">
          And the description of hero section is follow up message after the
          punch of a great headline. So, make it short, simple, descriptive and
          to the point.
         </p>
         <div className="">
-         <a href="#" className=""></a>
+         <a href="#" className="btn">
+          Book A Meeting
+         </a>
          <p className="">Here you can put secondary action statement & CTA</p>
         </div>
         <div className="">
