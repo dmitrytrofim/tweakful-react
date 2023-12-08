@@ -33,6 +33,8 @@
   position: relative;
   display: inline-flex;
   white-space: nowrap;
+  font-weight: theme('fontWeight.500');
+  color: theme('colors.t-white');
   background-color: theme('colors.b-blue');
   padding: 15px 55px 15px 25px;
  }
@@ -40,18 +42,17 @@
   position: absolute;
   content: '';
   top: calc(50% - 11px);
-  right: 20px;
+  right: 14px;
   width: 30px;
   height: 22px;
-  mask-image: url('./assets/sprite.svg#arr');
-  -webkit-mask-image: url('./assets/sprite.svg#arr');
+  mask-image: url('./assets/img/svg/sprite.svg#arr');
+  -webkit-mask-image: url('./assets/img/svg/sprite.svg#arr');
   mask-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
   mask-size: contain;
   -webkit-mask-size: contain;
   mask-position: center;
   -webkit-mask-position: center;
-  border: 1px solid #000;
   background: theme('colors.b-white');
  }
 }

@@ -26,6 +26,7 @@ export default {
    'b-white': 'var(--bg-white)',
    'b-black': 'var(--bg-black)',
    'b-blue': 'var(--bg-blue)',
+   'b-lightgray': 'var(--bg-lightgray)',
   },
   fontWeight: {
    300: '300',
