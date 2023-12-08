@@ -1,10 +1,5 @@
 import ReactDOM from 'react-dom/client';
-import './assets/css/vars.css';
-// import './assets/css/fonts.css';
-import './assets/css/custom-reset.css';
-import './assets/css/index.css';
-import './assets/css/animation.css';
-import './assets/css/theme.css';
+import './assets/index.css';
 // import { Provider } from 'react-redux';
 // import store from './store';
 import App from './app';

@@ -1,7 +1,50 @@
+/* 
+ @mark root 
+*/
+:root {
+ --sz-14: 14px;
+ --sz-16: 16px;
+ --sz-18: 18px;
+ --sz-20: 20px;
+ --sz-24: 24px;
+ --sz-32: 32px;
+ --sz-42: 42px;
+ --sz-52: 52px;
+ --sz-64: 64px;
+ --sz-72: 72px;
+
+ --tx-black: #000;
+ --tx-white: #fff;
+ --tx-dark: #191919;
+ --tx-dark2: #1e1e1e;
+
+ --bg-black: #000;
+ --bg-white: #fff;
+ --bg-blue: #2e4fd7;
+ --bg-lightgray: #e7ebfc;
+}
+
+/* 
+ @mark fonts 
+*/
+/* @font-face {
+ font-family: '';
+ font-style: normal;
+ font-weight: 00;
+ font-display: swap;
+ src: url('../../fonts') format('woff2');
+} */
+
+/* 
+ @mark tailwind 
+*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* 
+ @mark components 
+*/
 @layer components {
  /* .example {
   background-color: theme('colors.white');
@@ -45,8 +88,8 @@
   right: 14px;
   width: 30px;
   height: 22px;
-  mask-image: url('./assets/img/svg/sprite.svg#arr');
-  -webkit-mask-image: url('./assets/img/svg/sprite.svg#arr');
+  mask-image: url('./img/svg/sprite.svg#arr');
+  -webkit-mask-image: url('./img/svg/sprite.svg#arr');
   mask-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
   mask-size: contain;
@@ -56,3 +99,35 @@
   background: theme('colors.b-white');
  }
 }
+
+/* 
+ @mark scroll 
+*/
+::-webkit-scrollbar-button {
+ width: 6px;
+ height: 0px;
+}
+::-webkit-scrollbar-track {
+ background-color: var(--bg-white);
+ box-shadow: 0px 0px 3px var(--bg-white) inset;
+}
+::-webkit-scrollbar-thumb {
+ border-radius: 2px;
+ background-color: var(--bg-black);
+ background-position: center;
+ background-repeat: no-repeat;
+}
+::-webkit-resizer {
+ width: 7px;
+ height: 0px;
+}
+::-webkit-scrollbar {
+ width: 7px;
+}
+
+/* 
+ @mark animation 
+*/
+/* 
+ @mark theme 
+*/
