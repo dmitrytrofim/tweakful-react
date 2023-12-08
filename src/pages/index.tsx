@@ -45,7 +45,7 @@ function Index() {
       </div>
      </Container>
     </section>
-    <section>
+    <section className="mb-[200px]">
      <Container>
       <div className="flex justify-between">
        <ul className="max-w-[410px] flex flex-col gap-[50px]">
@@ -77,6 +77,39 @@ function Index() {
          Learn More About
         </a>
        </div>
+      </div>
+     </Container>
+    </section>
+    <section>
+     <Container>
+      <div className="">
+       <h2 className="title mb-[40px]">Benefits of working with us</h2>
+       <ul className="grid grid-cols-2 gap-[40px_30px]">
+        <Item
+         icon="benefits-1"
+         benefit
+         title="Time zones ain't no thing"
+         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat."
+        />
+        <Item
+         icon="benefits-2"
+         benefit
+         title="Full spectrum of services"
+         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat."
+        />
+        <Item
+         icon="benefits-3"
+         benefit
+         title="Impossible? We're on it"
+         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat."
+        />
+        <Item
+         icon="benefits-4"
+         benefit
+         title="Flexible work terms"
+         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat."
+        />
+       </ul>
       </div>
      </Container>
     </section>

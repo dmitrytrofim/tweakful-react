@@ -1,14 +1,16 @@
 interface ItemProps {
  icon: string;
+ benefit: boolean;
  title: string;
  text: string;
 }
 
-export function Item({ icon, title, text }: ItemProps) {
+export function Item({ icon, benefit, title, text }: ItemProps) {
+ const sizeIcon: string = benefit ? 'w-[52px] h-[52px]' : 'w-[24px] h-[24px]';
  return (
   <li className="flex gap-[24px] items-start">
    <div className="shrink-0 w-[54px] h-[54px] flex items-center justify-center rounded-full bg-b-lightgray">
-    <svg className="w-[28px] h-[28px] fill-b-blue">
+    <svg className={`${sizeIcon} fill-b-blue`}>
      <use xlinkHref={`./assets/img/svg/sprite.svg#` + icon}></use>
     </svg>
    </div>
@@ -19,3 +21,7 @@ export function Item({ icon, title, text }: ItemProps) {
   </li>
  );
 }
+
+Item.defaultProps = {
+ benefit: false,
+};
