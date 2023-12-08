@@ -1,13 +1,14 @@
 import { Wrapper, Container, Main } from '../components/common';
 import Header from '../components/header';
 import Footer from '../components/footer';
+import { Item } from '../components/elements';
 
 function Index() {
  return (
   <Wrapper>
-   <Header cls="mb-[145px]" />
+   <Header cls="mb-[100px]" />
    <Main>
-    <section className="mb-[250px]">
+    <section className="mb-[200px]">
      <Container>
       <div className="flex gap-[100px]">
        <div>
@@ -48,48 +49,21 @@ function Index() {
      <Container>
       <div className="flex justify-between">
        <ul className="max-w-[410px] flex flex-col gap-[50px]">
-        <li className="flex gap-[24px] items-start">
-         <div className="shrink-0 w-[54px] h-[54px] flex items-center justify-center rounded-full bg-b-lightgray">
-          <svg className="w-[28px] h-[28px] fill-b-blue">
-           <use xlinkHref="./assets/img/svg/sprite.svg#headline-1"></use>
-          </svg>
-         </div>
-         <div className="">
-          <p className="text-20 font-700 mb-[7px]">First Benefit</p>
-          <p className="leading-[1.6]">
-           Gorgeous, high-quality design system for mobile, tablet & desktop
-           devices a few
-          </p>
-         </div>
-        </li>
-        <li className="flex gap-[24px] items-start">
-         <div className="shrink-0 w-[54px] h-[54px] flex items-center justify-center rounded-full bg-b-lightgray">
-          <svg className="w-[28px] h-[28px] fill-b-blue">
-           <use xlinkHref="./assets/img/svg/sprite.svg#headline-2"></use>
-          </svg>
-         </div>
-         <div className="">
-          <p className="text-20 font-700 mb-[7px]">First Benefit</p>
-          <p className="leading-[1.6]">
-           Gorgeous, high-quality design system for mobile, tablet & desktop
-           devices a few
-          </p>
-         </div>
-        </li>
-        <li className="flex gap-[24px] items-start">
-         <div className="shrink-0 w-[54px] h-[54px] flex items-center justify-center rounded-full bg-b-lightgray">
-          <svg className="w-[28px] h-[28px] fill-b-blue">
-           <use xlinkHref="./assets/img/svg/sprite.svg#headline-3"></use>
-          </svg>
-         </div>
-         <div className="">
-          <p className="text-20 font-700 mb-[7px]">First Benefit</p>
-          <p className="leading-[1.6]">
-           Gorgeous, high-quality design system for mobile, tablet & desktop
-           devices a few
-          </p>
-         </div>
-        </li>
+        <Item
+         icon="headline-1"
+         title="First Benefit"
+         text="Gorgeous, high-quality design system for mobile, tablet & desktop devices a few"
+        />
+        <Item
+         icon="headline-2"
+         title="Second Benefit"
+         text="Gorgeous, high-quality design system for mobile, tablet & desktop devices a few"
+        />
+        <Item
+         icon="headline-3"
+         title="Third Benefit"
+         text="Gorgeous, high-quality design system for mobile, tablet & desktop devices a few"
+        />
        </ul>
        <div className="max-w-[540px]">
         <h2 className="title mb-[15px]">

@@ -63,3 +63,26 @@ figure {
 blockquote {
  margin: 0;
 }
+
+/* Scroll */
+::-webkit-scrollbar-button {
+ width: 6px;
+ height: 0px;
+}
+::-webkit-scrollbar-track {
+ background-color: var(--bg-white);
+ box-shadow: 0px 0px 3px var(--bg-white) inset;
+}
+::-webkit-scrollbar-thumb {
+ border-radius: 2px;
+ background-color: var(--bg-black);
+ background-position: center;
+ background-repeat: no-repeat;
+}
+::-webkit-resizer {
+ width: 7px;
+ height: 0px;
+}
+::-webkit-scrollbar {
+ width: 7px;
+}
