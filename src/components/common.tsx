@@ -8,18 +8,19 @@ export function Wrapper({ children }: { children: React.ReactNode }) {
  );
 }
 
-export function Container({
- children,
- cls,
-}: {
+interface ContainerProps {
  children: React.ReactNode;
- cls: string;
-}) {
- return <div className={`w-full ${cls} mx-auto px-[10px]`}>{children}</div>;
+ width: string;
+ padding: string;
+}
+
+export function Container({ children, width, padding }: ContainerProps) {
+ return <div className={`w-full ${width} mx-auto ${padding}`}>{children}</div>;
 }
 
 Container.defaultProps = {
- cls: 'max-w-[1220px]',
+ width: 'max-w-[1220px]',
+ padding: 'px-[10px]',
 };
 
 export function Main({

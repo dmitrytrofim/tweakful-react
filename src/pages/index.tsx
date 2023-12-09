@@ -80,7 +80,7 @@ function Index() {
       </div>
      </Container>
     </section>
-    <section>
+    <section className="mb-[200px]">
      <Container>
       <div className="">
        <h2 className="title mb-[40px]">Benefits of working with us</h2>
@@ -110,6 +110,36 @@ function Index() {
          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis et sed nam sem tellus erat."
         />
        </ul>
+      </div>
+     </Container>
+    </section>
+    <section>
+     <Container>
+      <div className="flex gap-[50px] bg-b-lightgray py-[120px]">
+       <div className="ml-[95px]">
+        <h3 className="title text-42 mb-[32px]">Success Story</h3>
+        <p className="text-42 mb-[32px]">
+         Nowadays, it isn't uncommon to see lenders rapidly adopting a digital
+         lending strategy to streamline the lending process
+        </p>
+        <img
+         className=""
+         src="./assets/img/svg/philips.svg"
+         alt=""
+         loading="lazy"
+        />
+        <a href="#" className="">
+         Read Complete Case Study
+        </a>
+       </div>
+       <div className="i-wrap shrink-0 w-[380px]">
+        <img
+         className="i-full object-top"
+         src="./assets/img/woman-2.webp"
+         alt=""
+         loading="lazy"
+        />
+       </div>
       </div>
      </Container>
     </section>
