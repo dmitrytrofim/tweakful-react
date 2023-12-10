@@ -113,7 +113,7 @@ function Index() {
       </div>
      </Container>
     </section>
-    <section>
+    <section className="mb-[200px]">
      <Container>
       <div className="flex gap-[50px] bg-b-lightgray py-[120px]">
        <div className="ml-[95px]">
@@ -149,17 +149,77 @@ function Index() {
       </div>
      </Container>
     </section>
-    <section className="mb-[150px]">
+    <section className="mb-[60px]">
      <Container>
       <div>
-       <h2 className="title">The process we follow</h2>
-       <ul className="">
-        <li className="relative after:absolute after:top-[calc(50%-2px)] after:left-0 after:w-[100%] after:h-[5px] after:border-[2px] after:border-dotted after:border-y-b-blue">
+       <h2 className="title text-42 mb-[52px]">The process we follow</h2>
+       <ul className="grid grid-cols-4 gap-[30px]">
+        <li className="relative after:absolute after:top-[11px] after:left-[40px] after:w-[100%] after:h-[5px] after:border-t-[4px] after:border-dotted after:border-y-b-blue after:opacity-[0.4] overflow-hidden">
+         <div className="w-[24px] h-[24px] rounded-full bg-b-blue mb-[15px]"></div>
+         <p className="text-24 font-700 mb-[5px]">Ideate</p>
+         <p className="">Turn your idea from concept to MVP</p>
+        </li>
+        <li className="relative after:absolute after:top-[11px] after:left-[40px] after:w-[100%] after:h-[5px] after:border-t-[4px] after:border-dotted after:border-y-b-blue after:opacity-[0.4] overflow-hidden">
+         <div className="w-[24px] h-[24px] rounded-full bg-b-blue mb-[15px]"></div>
+         <p className="text-24 font-700 mb-[5px]">Ideate</p>
+         <p className="">Turn your idea from concept to MVP</p>
+        </li>
+        <li className="relative after:absolute after:top-[11px] after:left-[40px] after:w-[100%] after:h-[5px] after:border-t-[4px] after:border-dotted after:border-y-b-blue after:opacity-[0.4] overflow-hidden">
+         <div className="w-[24px] h-[24px] rounded-full bg-b-blue mb-[15px]"></div>
+         <p className="text-24 font-700 mb-[5px]">Ideate</p>
+         <p className="">Turn your idea from concept to MVP</p>
+        </li>
+        <li className="overflow-hidden">
          <div className="w-[24px] h-[24px] rounded-full bg-b-blue mb-[15px]"></div>
          <p className="text-24 font-700 mb-[5px]">Ideate</p>
          <p className="">Turn your idea from concept to MVP</p>
         </li>
        </ul>
+      </div>
+     </Container>
+    </section>
+    <section className="bg-b-lightgray py-[100px]">
+     <Container>
+      <div className="flex flex-col">
+       <h2 className="title text-center mb-[24px]">
+        The Is Closing Headline To Make A<br /> Impact For Call To Action
+       </h2>
+       <p className="text-center mb-[60px]">
+        Nowadays, it isn't uncommon to see lenders rapidly adopting a digital
+        lending strategy to streamline
+        <br /> the lending process nowadays, it isn't uncommon to see lenders
+        rapidly
+       </p>
+       <a href="#" className="btn self-center mb-[40px]">
+        Book A Meeting
+       </a>
+       <hr className="h-[2px] bg-[#B4B4B4] border-none mb-[50px]" />
+       <div className="flex justify-center gap-[30px]">
+        <img
+         className="h-[28px]"
+         src="./assets/img/svg/philips.svg"
+         alt=""
+         loading="lazy"
+        />
+        <img
+         className="h-[28px]"
+         src="./assets/img/svg/philips.svg"
+         alt=""
+         loading="lazy"
+        />
+        <img
+         className="h-[28px]"
+         src="./assets/img/svg/philips.svg"
+         alt=""
+         loading="lazy"
+        />
+        <img
+         className="h-[28px]"
+         src="./assets/img/svg/philips.svg"
+         alt=""
+         loading="lazy"
+        />
+       </div>
       </div>
      </Container>
     </section>
