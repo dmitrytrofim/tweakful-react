@@ -123,13 +123,19 @@ function Index() {
          lending strategy to streamline the lending process
         </p>
         <img
-         className=""
+         className="h-[31px] mb-[10px]"
          src="./assets/img/svg/philips.svg"
          alt=""
          loading="lazy"
         />
-        <a href="#" className="">
-         Read Complete Case Study
+        <a
+         href="#"
+         className="flex items-center gap-[5px] text-t-blue font-500"
+        >
+         <span>Read Complete Case Study</span>
+         <svg className="w-[20px] h-[10px] fill-t-blue">
+          <use xlinkHref="./assets/img/svg/sprite.svg#arr"></use>
+         </svg>
         </a>
        </div>
        <div className="i-wrap shrink-0 w-[380px]">
@@ -140,6 +146,20 @@ function Index() {
          loading="lazy"
         />
        </div>
+      </div>
+     </Container>
+    </section>
+    <section className="mb-[150px]">
+     <Container>
+      <div>
+       <h2 className="title">The process we follow</h2>
+       <ul className="">
+        <li className="relative after:absolute after:top-[calc(50%-2px)] after:left-0 after:w-[100%] after:h-[5px] after:border-[2px] after:border-dotted after:border-y-b-blue">
+         <div className="w-[24px] h-[24px] rounded-full bg-b-blue mb-[15px]"></div>
+         <p className="text-24 font-700 mb-[5px]">Ideate</p>
+         <p className="">Turn your idea from concept to MVP</p>
+        </li>
+       </ul>
       </div>
      </Container>
     </section>

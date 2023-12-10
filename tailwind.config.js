@@ -23,6 +23,7 @@ export default {
    't-black': 'var(--tx-black)',
    't-dark': 'var(--tx-dark)',
    't-dark2': 'var(--tx-dark2)',
+   't-blue': 'var(--tx-blue)',
    'b-white': 'var(--bg-white)',
    'b-black': 'var(--bg-black)',
    'b-blue': 'var(--bg-blue)',
