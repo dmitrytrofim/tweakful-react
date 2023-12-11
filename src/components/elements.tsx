@@ -11,7 +11,7 @@ export function Item({ icon, benefit, title, text }: ItemProps) {
   <li className="flex gap-[24px] items-start">
    <div className="shrink-0 w-[54px] h-[54px] flex items-center justify-center rounded-full bg-b-lightgray">
     <svg className={`${sizeIcon} fill-b-blue`}>
-     <use xlinkHref={`./assets/img/svg/sprite.svg#` + icon}></use>
+     <use xlinkHref={`/assets/img/svg/sprite.svg#` + icon}></use>
     </svg>
    </div>
    <div className="">

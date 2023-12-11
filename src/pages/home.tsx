@@ -29,15 +29,15 @@ function Home() {
          </p>
         </div>
         <div className="h-[31px] flex gap-[20px]">
-         <img src="./assets/img/svg/philips.svg" alt="Test" loading="lazy" />
-         <img src="./assets/img/svg/philips.svg" alt="Test" loading="lazy" />
-         <img src="./assets/img/svg/philips.svg" alt="Test" loading="lazy" />
+         <img src="/assets/img/svg/philips.svg" alt="Test" loading="lazy" />
+         <img src="/assets/img/svg/philips.svg" alt="Test" loading="lazy" />
+         <img src="/assets/img/svg/philips.svg" alt="Test" loading="lazy" />
         </div>
        </div>
        <div className="i-wrap shrink-0 w-[460px]">
         <img
          className="i-full object-top"
-         src="./assets/img/woman-1.webp "
+         src="/assets/img/woman-1.webp "
          alt="Woman"
          loading="lazy"
         />
@@ -124,7 +124,7 @@ function Home() {
         </p>
         <img
          className="h-[31px] mb-[10px]"
-         src="./assets/img/svg/philips.svg"
+         src="/assets/img/svg/philips.svg"
          alt=""
          loading="lazy"
         />
@@ -134,14 +134,14 @@ function Home() {
         >
          <span>Read Complete Case Study</span>
          <svg className="w-[20px] h-[10px] fill-t-blue">
-          <use xlinkHref="./assets/img/svg/sprite.svg#arr"></use>
+          <use xlinkHref="/assets/img/svg/sprite.svg#arr"></use>
          </svg>
         </a>
        </div>
        <div className="i-wrap shrink-0 w-[380px]">
         <img
          className="i-full object-top"
-         src="./assets/img/woman-2.webp"
+         src="/assets/img/woman-2.webp"
          alt=""
          loading="lazy"
         />
@@ -197,25 +197,25 @@ function Home() {
        <div className="flex justify-center gap-[30px]">
         <img
          className="h-[28px]"
-         src="./assets/img/svg/philips.svg"
+         src="/assets/img/svg/philips.svg"
          alt=""
          loading="lazy"
         />
         <img
          className="h-[28px]"
-         src="./assets/img/svg/philips.svg"
+         src="/assets/img/svg/philips.svg"
          alt=""
          loading="lazy"
         />
         <img
          className="h-[28px]"
-         src="./assets/img/svg/philips.svg"
+         src="/assets/img/svg/philips.svg"
          alt=""
          loading="lazy"
         />
         <img
          className="h-[28px]"
-         src="./assets/img/svg/philips.svg"
+         src="/assets/img/svg/philips.svg"
          alt=""
          loading="lazy"
         />
