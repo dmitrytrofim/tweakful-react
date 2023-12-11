@@ -26,6 +26,7 @@ export default {
    't-blue': 'var(--tx-blue)',
    'b-white': 'var(--bg-white)',
    'b-black': 'var(--bg-black)',
+   'b-dark': 'var(--bg-dark)',
    'b-blue': 'var(--bg-blue)',
    'b-lightgray': 'var(--bg-lightgray)',
   },
