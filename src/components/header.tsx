@@ -21,7 +21,7 @@ function Header({ cls }: { cls: string }) {
          <Link to={`/`}>Home</Link>
         </li>
         <li className="">
-         <Link to={`/pages/features`}>Features</Link>
+         <Link to={`/features`}>Features</Link>
         </li>
         <li className="">
          <a href="#" className="">
