@@ -1,11 +1,26 @@
 import ReactDOM from 'react-dom/client';
 import './assets/index.css';
-import Home from './pages/home';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 // import { Provider } from 'react-redux';
 // import store from './store';
+import Home from './pages/home';
+import ErrorPage from './pages/error-page';
+import Features from './pages/features';
+
+const router = createBrowserRouter([
+ {
+  path: '/',
+  element: <Home />,
+  errorElement: <ErrorPage />,
+ },
+ {
+  path: '/pages/features',
+  element: <Features />,
+ },
+]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
  // <Provider store={store}>
- <Home />
+ <RouterProvider router={router} />
  // </Provider>
 );

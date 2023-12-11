@@ -1,4 +1,5 @@
 import { Container } from './common';
+import { Link } from 'react-router-dom';
 
 function Header({ cls }: { cls: string }) {
  return (
@@ -9,7 +10,7 @@ function Header({ cls }: { cls: string }) {
       <a href="#" className="flex items-center gap-[10px]">
        <img
         className="w-[51px] h-[38px] object-cover object-center"
-        src="./assets/img/svg/sprite.svg#logo"
+        src="/assets/img/svg/sprite.svg#logo"
         alt=""
        />
        <span className="text-24 font-700 mr-[53px]">Tweakful</span>
@@ -17,14 +18,10 @@ function Header({ cls }: { cls: string }) {
       <nav className="">
        <ul className="flex gap-[31px] text-t-dark2">
         <li className="">
-         <a href="#" className="">
-          Home
-         </a>
+         <Link to={`/`}>Home</Link>
         </li>
         <li className="">
-         <a href="#" className="">
-          Features
-         </a>
+         <Link to={`/pages/features`}>Features</Link>
         </li>
         <li className="">
          <a href="#" className="">
