@@ -3,7 +3,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import { Item } from '../components/elements';
 
-function Index() {
+function Home() {
  return (
   <Wrapper>
    <Header cls="mb-[100px]" />
@@ -229,4 +229,4 @@ function Index() {
  );
 }
 
-export default Index;
+export default Home;
