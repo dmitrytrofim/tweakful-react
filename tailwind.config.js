@@ -19,6 +19,7 @@ export default {
    72: 'var(--sz-72)',
   },
   colors: {
+   transp: 'transparent',
    't-white': 'var(--tx-white)',
    't-black': 'var(--tx-black)',
    't-dark': 'var(--tx-dark)',
