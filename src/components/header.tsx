@@ -10,7 +10,7 @@ function Header({ cls }: { cls: string }) {
       <a href="#" className="flex items-center gap-[10px]">
        <img
         className="w-[51px] h-[38px] object-cover object-center"
-        src="/assets/img/svg/sprite.svg#logo"
+        src="/assets/img/svg/logo.svg"
         alt=""
        />
        <span className="text-24 font-700 mr-[53px]">Tweakful</span>
@@ -24,9 +24,7 @@ function Header({ cls }: { cls: string }) {
          <Link to={`/features`}>Features</Link>
         </li>
         <li className="">
-         <a href="#" className="">
-          Contacts
-         </a>
+         <Link to={'/contacts'}>Contacts</Link>
         </li>
        </ul>
       </nav>

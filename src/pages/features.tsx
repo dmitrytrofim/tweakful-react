@@ -55,10 +55,10 @@ export default function Features() {
     </section>
     <section className="mb-[200px]">
      <Container>
-      <div className="">
-       <h2 className="title mb-[70px]">
-        Headline of Modern and Digital Platform
-       </h2>
+      <h2 className="title mb-[70px]">
+       Headline of Modern and Digital Platform
+      </h2>
+      <div className="flex items-center gap-[30px]">
        <ul className="grid grid-cols-[260px_260px] gap-[30px]">
         <li className="">
          <svg className="w-[40px] h-[40px] mb-[16px]">
@@ -101,19 +101,32 @@ export default function Features() {
          </p>
         </li>
        </ul>
+       <Splide options={{ type: 'loop' }}>
+        <SplideSlide>
+         <img
+          className="w-full h-[300px] object-cover object-center"
+          src="/assets/img/slide-1.webp"
+          alt=""
+         />
+        </SplideSlide>
+        <SplideSlide>
+         <img
+          className="w-full h-[300px] object-cover object-center"
+          src="/assets/img/slide-2.webp"
+          alt=""
+         />
+        </SplideSlide>
+        <SplideSlide>
+         <img
+          className="w-full h-[300px] object-cover object-center"
+          src="/assets/img/slide-3.webp"
+          alt=""
+         />
+        </SplideSlide>
+       </Splide>
       </div>
      </Container>
     </section>
-    <Container margin="mb-[200px]">
-     <Splide aria-label="My Favorite Images">
-      <SplideSlide>
-       <img src="image1.jpg" alt="Image 1" />
-      </SplideSlide>
-      <SplideSlide>
-       <img src="image2.jpg" alt="Image 2" />
-      </SplideSlide>
-     </Splide>
-    </Container>
    </main>
    <Footer />
   </Wrapper>
