@@ -1,11 +1,15 @@
-import { Wrapper } from '../components/common';
+import { Container, Wrapper } from '../components/common';
+import Footer from '../components/footer';
 import Header from '../components/header';
 
 export default function Contacts() {
  return (
   <Wrapper>
    <Header />
-   contacts
+   <main>
+    <Container>test</Container>
+   </main>
+   <Footer />
   </Wrapper>
  );
 }

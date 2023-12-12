@@ -7,14 +7,14 @@ function Header({ cls }: { cls: string }) {
    <Container>
     <div className="min-h-[80px] flex justify-between items-center">
      <div className="flex items-center">
-      <a href="#" className="flex items-center gap-[10px]">
+      <Link to={'/'} className="flex items-center gap-[10px]">
        <img
         className="w-[51px] h-[38px] object-cover object-center"
         src="/assets/img/svg/logo.svg"
         alt=""
        />
        <span className="text-24 font-700 mr-[53px]">Tweakful</span>
-      </a>
+      </Link>
       <nav className="">
        <ul className="flex gap-[31px] text-t-dark2">
         <li className="">
