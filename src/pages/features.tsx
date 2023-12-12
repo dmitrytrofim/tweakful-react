@@ -3,6 +3,7 @@ import { Wrapper, Container } from '../components/common';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Greet from '../components/greet';
+import { Splide, SplideSlide } from '../../node_modules/@splidejs/react-splide';
 
 export default function Features() {
  return (
@@ -10,27 +11,31 @@ export default function Features() {
    <Header cls="mb-[100px]" />
    <main>
     <Greet title="Future is now!" />
-    <section>
+    <section className="mb-[200px]">
      <Container>
-      <div className="flex">
+      <div className="flex justify-between gap-[130px]">
        <div className="">
-        <h2 className="title">Headline Sample</h2>
-        <p className="">
+        <h2 className="title text-42 mb-[10px]">Headline Sample</h2>
+        <p className="leading-[1.5] mb-[30px]">
          Nowadays, it isn't uncommon to see lenders rapidly adopting a digital
          lending strategy to streamline the lending process Gorgeous,
          high-quality design system for mobile, tablet & desktop devices a few
          reasons digital
         </p>
-        <div className="">
-         <p className="">
-          <span className="">18k</span>
+        <div className="flex gap-[80px]">
+         <p className="w-[200px] flex flex-col">
+          <span className="text-72 font-700">
+           18<span className="text-52 font-600">k</span>
+          </span>
           <span className="">
            Gorgeous, high-quality design system for mobile, tablet & desktop
            devices
           </span>
          </p>
-         <p className="">
-          <span className="">92%</span>
+         <p className="w-[200px] flex flex-col">
+          <span className="text-72 font-700">
+           92<span className="text-52 font-600">%</span>
+          </span>
           <span className="">
            Gorgeous, high-quality design system for mobile, tablet & desktop
            devices
@@ -48,6 +53,67 @@ export default function Features() {
       </div>
      </Container>
     </section>
+    <section className="mb-[200px]">
+     <Container>
+      <div className="">
+       <h2 className="title mb-[70px]">
+        Headline of Modern and Digital Platform
+       </h2>
+       <ul className="grid grid-cols-[260px_260px] gap-[30px]">
+        <li className="">
+         <svg className="w-[40px] h-[40px] mb-[16px]">
+          <use xlinkHref="/assets/img/svg/sprite.svg#headline-1"></use>
+         </svg>
+         <p className="text-20 font-500 mb-[8px]">First Feature</p>
+         <p className="leading-[1.6]">
+          Gorgeous, high-quality design system for mobile, tablet and desktop
+          devices a few reasons
+         </p>
+        </li>
+        <li className="">
+         <svg className="w-[40px] h-[40px] mb-[16px]">
+          <use xlinkHref="/assets/img/svg/sprite.svg#headline-2"></use>
+         </svg>
+         <p className="text-20 font-500 mb-[8px]">Second Feature</p>
+         <p className="leading-[1.6]">
+          Gorgeous, high-quality design system for mobile, tablet and desktop
+          devices a few reasons
+         </p>
+        </li>
+        <li className="">
+         <svg className="w-[40px] h-[40px] mb-[16px]">
+          <use xlinkHref="/assets/img/svg/sprite.svg#headline-3"></use>
+         </svg>
+         <p className="text-20 font-500 mb-[8px]">Third Feature</p>
+         <p className="leading-[1.6]">
+          Gorgeous, high-quality design system for mobile, tablet and desktop
+          devices a few reasons
+         </p>
+        </li>
+        <li className="">
+         <svg className="w-[40px] h-[40px] mb-[16px]">
+          <use xlinkHref="/assets/img/svg/sprite.svg#shield"></use>
+         </svg>
+         <p className="text-20 font-500 mb-[8px]">Fourth Feature</p>
+         <p className="leading-[1.6]">
+          Gorgeous, high-quality design system for mobile, tablet and desktop
+          devices a few reasons
+         </p>
+        </li>
+       </ul>
+      </div>
+     </Container>
+    </section>
+    <Container margin="mb-[200px]">
+     <Splide aria-label="My Favorite Images">
+      <SplideSlide>
+       <img src="image1.jpg" alt="Image 1" />
+      </SplideSlide>
+      <SplideSlide>
+       <img src="image2.jpg" alt="Image 2" />
+      </SplideSlide>
+     </Splide>
+    </Container>
    </main>
    <Footer />
   </Wrapper>

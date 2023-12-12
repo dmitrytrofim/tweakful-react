@@ -1,4 +1,5 @@
 import ReactDOM from 'react-dom/client';
+import '@splidejs/react-splide/css';
 import './assets/index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 // import { Provider } from 'react-redux';

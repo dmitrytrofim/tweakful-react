@@ -25,17 +25,7 @@ function Header({ cls }: { cls: string }) {
         </li>
         <li className="">
          <a href="#" className="">
-          Pricing
-         </a>
-        </li>
-        <li className="">
-         <a href="#" className="">
-          About Us
-         </a>
-        </li>
-        <li className="">
-         <a href="#" className="">
-          Help
+          Contacts
          </a>
         </li>
        </ul>

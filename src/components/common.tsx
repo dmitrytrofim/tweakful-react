@@ -12,15 +12,26 @@ interface ContainerProps {
  children: React.ReactNode;
  width: string;
  padding: string;
+ margin: string;
 }
 
-export function Container({ children, width, padding }: ContainerProps) {
- return <div className={`w-full ${width} mx-auto ${padding}`}>{children}</div>;
+export function Container({
+ children,
+ width,
+ padding,
+ margin,
+}: ContainerProps) {
+ return (
+  <div className={`w-full ${width} mx-auto ${padding} ${margin}`}>
+   {children}
+  </div>
+ );
 }
 
 Container.defaultProps = {
  width: 'max-w-[1220px]',
  padding: 'px-[10px]',
+ margin: '',
 };
 
 export function Main({
