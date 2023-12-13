@@ -25,10 +25,12 @@ export default {
    't-dark': 'var(--tx-dark)',
    't-dark2': 'var(--tx-dark2)',
    't-blue': 'var(--tx-blue)',
+   't-gray': 'var(--tx-gray)',
    'b-white': 'var(--bg-white)',
    'b-black': 'var(--bg-black)',
    'b-dark': 'var(--bg-dark)',
    'b-blue': 'var(--bg-blue)',
+   'b-gray': 'var(--bg-gray)',
    'b-lightgray': 'var(--bg-lightgray)',
   },
   fontWeight: {
