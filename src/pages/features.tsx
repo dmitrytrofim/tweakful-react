@@ -11,7 +11,7 @@ export default function Features() {
    <Header cls="mb-[100px]" />
    <main>
     <Greet title="Future is now!" />
-    <section className="mb-[200px]">
+    <section className="mb-[200px] max-[768px]:mb-[100px]">
      <Container>
       <div className="flex justify-between gap-[130px]">
        <div className="">
@@ -53,7 +53,7 @@ export default function Features() {
       </div>
      </Container>
     </section>
-    <section className="mb-[200px]">
+    <section className="mb-[200px] max-[768px]:mb-[100px]">
      <Container>
       <h2 className="title mb-[70px]">
        Headline of Modern and Digital Platform

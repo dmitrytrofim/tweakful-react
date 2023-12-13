@@ -40,24 +40,32 @@ export default function Contacts() {
          below. We'll help you.
         </p>
         <form action="#">
-         <div className="">
-          <label className="">
+         <div className="flex justify-between gap-[20px] mb-[24px]">
+          <label className="flex flex-col gap-[11px]">
            <span className="">Your name*</span>
            <input
-            className=""
+            className="w-full text-14 border-[2px] border-b-gray p-[12px]"
             name="name"
             type="text"
             placeholder="Enter your name"
            />
           </label>
-          <label>
+          <label className="flex flex-col gap-[11px]">
            <span className="">Your email*</span>
-           <input className="" type="email" placeholder="Enter your email" />
+           <input
+            className="w-full text-14 border-[2px] border-b-gray p-[12px]"
+            type="email"
+            placeholder="Enter your email"
+           />
           </label>
          </div>
-         <label className="">
+         <div className="flex flex-col gap-[11px] mb-[28px]">
           <span className="">Choose topic*</span>
-          <select className="" name="sel" id="">
+          <select
+           className="w-full text-14 border-[2px] border-b-gray p-[12px] appearance-none bg-[url('/assets/img/svg/arr-down.svg')] bg-no-repeat bg-[length:14px] bg-[right_12px_center] cursor-pointer"
+           name="sel"
+           id=""
+          >
            <option className="hidden" value="">
             Select one topic
            </option>
@@ -65,8 +73,11 @@ export default function Contacts() {
            <option value="">2</option>
            <option value="">3</option>
           </select>
-         </label>
-         <button className="" type="submit">
+         </div>
+         <button
+          className="btn w-full flex items-center justify-center after:hidden p-[14px]"
+          type="submit"
+         >
           Contact Us
          </button>
         </form>

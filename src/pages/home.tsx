@@ -7,13 +7,13 @@ import { Item } from '../components/elements';
 function Home() {
  return (
   <Wrapper>
-   <Header cls="mb-[100px]" />
+   <Header cls="mb-[100px] max-[768px]:mb-[30px]" />
    <Main>
     <Greet title="This headline is the gist of the Your whole Website" />
-    <section className="mb-[200px]">
+    <section className="mb-[200px] max-[768px]:mb-[100px]">
      <Container>
-      <div className="flex justify-between">
-       <ul className="max-w-[410px] flex flex-col gap-[50px]">
+      <div className="flex justify-between gap-[40px] max-[992px]:flex-col-reverse">
+       <ul className="max-w-[410px] flex flex-col gap-[50px] max-[992px]:max-w-none">
         <Item
          icon="headline-1"
          title="First Benefit"
@@ -30,7 +30,7 @@ function Home() {
          text="Gorgeous, high-quality design system for mobile, tablet & desktop devices a few"
         />
        </ul>
-       <div className="max-w-[540px]">
+       <div className="max-w-[540px] max-[992px]:max-w-none">
         <h2 className="title mb-[15px]">
          Headline of Modern and Digital Lending Platform Seconds
         </h2>
@@ -45,7 +45,7 @@ function Home() {
       </div>
      </Container>
     </section>
-    <section className="mb-[200px]">
+    <section className="mb-[200px] max-[768px]:mb-[100px]">
      <Container>
       <div className="">
        <h2 className="title mb-[40px]">Benefits of working with us</h2>
@@ -78,7 +78,7 @@ function Home() {
       </div>
      </Container>
     </section>
-    <section className="mb-[200px]">
+    <section className="mb-[200px] max-[768px]:mb-[100px]">
      <Container>
       <div className="flex gap-[50px] bg-b-lightgray py-[120px]">
        <div className="ml-[95px]">
