@@ -7,6 +7,7 @@
  --sz-18: 18px;
  --sz-20: 20px;
  --sz-24: 24px;
+ --sz-28: 28px;
  --sz-32: 32px;
  --sz-42: 42px;
  --sz-52: 52px;
@@ -24,7 +25,7 @@
  --bg-dark: #052825;
  --bg-white: #fff;
  --bg-blue: #2e4fd7;
- --bg-gray: #64626a;
+ --bg-gray: #b4b4b4;
  --bg-lightgray: #e7ebfc;
 }
 

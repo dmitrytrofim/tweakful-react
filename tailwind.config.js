@@ -12,6 +12,7 @@ export default {
    18: 'var(--sz-18)',
    20: 'var(--sz-20)',
    24: 'var(--sz-24)',
+   28: 'var(--sz-28)',
    32: 'var(--sz-32)',
    42: 'var(--sz-42)',
    52: 'var(--sz-52)',

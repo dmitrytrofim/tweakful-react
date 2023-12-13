@@ -33,9 +33,9 @@ export default function Contacts() {
          </a>
         </div>
        </div>
-       <div className="max-w-[490px]">
-        <p className="">Let's Talk</p>
-        <p className="">
+       <div className="max-w-[490px] bg-b-white border-[1px] border-b-gray pt-[36px] pb-[26px] px-[30px]">
+        <p className="text-28 font-600 mb-[28px]">Let's Talk</p>
+        <p className="text-18 text-t-gray leading-[1.6] mb-[40px]">
          If you have any question or issue's to use our product. Fill the form
          below. We'll help you.
         </p>
