@@ -6,8 +6,8 @@ function Footer() {
    <Container>
     <div className="pt-[70px] pb-[44px]">
      <p className="text-24 font-700 mb-[30px]">Tweakful</p>
-     <div className="flex justify-between mb-[30px]">
-      <div className="max-w-[420px]">
+     <div className="flex justify-between gap-[30px] mb-[30px] max-[992px]:flex-col">
+      <div className="max-w-[420px] max-[992px]:max-w-none">
        <p className="text-18 font-500 mb-[5px]">About Tweakful</p>
        <p className="leading-[1.6] mb-[5px]">
         Tweakful is HubSpot Theme Based On Engagement Design Framework, designed
@@ -17,8 +17,8 @@ function Footer() {
         Button Text
        </a>
       </div>
-      <div className="flex flex-col items-end gap-[32px]">
-       <ul className="flex gap-[22px]">
+      <div className="flex flex-col gap-[32px]">
+       <ul className="flex flex-wrap justify-end gap-[22px] max-[992px]:justify-start">
         <li className="">
          <a href="#" className="">
           Contact
@@ -50,7 +50,7 @@ function Footer() {
          </a>
         </li>
        </ul>
-       <ul className="flex gap-[22px]">
+       <ul className="flex flex-wrap justify-end gap-[22px] max-[992px]:justify-start">
         <li className="">
          <a href="#" className="">
           Blog
@@ -79,12 +79,14 @@ function Footer() {
        </ul>
       </div>
      </div>
-     <div className="flex justify-between border-t-[1px] border-[rgba(255,255,255,0.08)] pt-[30px]">
-      <p className="max-w-[390px]">
+     <div className="flex justify-between gap-[20px] border-t-[1px] border-[rgba(255,255,255,0.08)] pt-[30px] max-[992px]:flex-col">
+      <p className="max-w-[390px] max-[992px]:max-w-none">
        B2B website and engagement design solution that transform marketing and
        sales performance like never before.
       </p>
-      <p className="">© 2015-2020 Openthrive. All right reserved.</p>
+      <p className="text-right max-[992px]:text-left">
+       © 2015-2020 Openthrive. All right reserved.
+      </p>
      </div>
     </div>
    </Container>

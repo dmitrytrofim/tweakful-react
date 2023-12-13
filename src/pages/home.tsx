@@ -49,7 +49,7 @@ function Home() {
      <Container>
       <div className="">
        <h2 className="title mb-[40px]">Benefits of working with us</h2>
-       <ul className="grid grid-cols-2 gap-[40px_30px]">
+       <ul className="grid grid-cols-2 gap-[40px_30px] max-[768px]:grid-cols-1">
         <Item
          icon="benefits-1"
          benefit
@@ -80,8 +80,8 @@ function Home() {
     </section>
     <section className="mb-[200px] max-[768px]:mb-[100px]">
      <Container>
-      <div className="flex gap-[50px] bg-b-lightgray py-[120px]">
-       <div className="ml-[95px]">
+      <div className="flex gap-[50px] bg-b-lightgray py-[120px] max-[1200px]:py-[60px] max-[992px]:flex-col">
+       <div className="ml-[95px] max-[1200px]:ml-0 max-[1200px]:px-[10px]">
         <h3 className="title text-42 mb-[32px]">Success Story</h3>
         <p className="text-42 mb-[32px]">
          Nowadays, it isn't uncommon to see lenders rapidly adopting a digital
@@ -103,7 +103,7 @@ function Home() {
          </svg>
         </a>
        </div>
-       <div className="i-wrap shrink-0 w-[380px]">
+       <div className="i-wrap shrink-0 w-[380px] max-[992px]:w-full max-[992px]:aspect-video">
         <img
          className="i-full object-top"
          src="/assets/img/woman-2.webp"
@@ -118,23 +118,23 @@ function Home() {
      <Container>
       <div>
        <h2 className="title text-42 mb-[52px]">The process we follow</h2>
-       <ul className="grid grid-cols-4 gap-[30px]">
-        <li className="relative after:absolute after:top-[11px] after:left-[40px] after:w-[100%] after:h-[5px] after:border-t-[4px] after:border-dotted after:border-y-b-blue after:opacity-[0.4] overflow-hidden">
+       <ul className="grid grid-cols-4 gap-[30px] max-[768px]:grid-cols-2 max-[576px]:grid-cols-1">
+        <li className="relative after:absolute after:top-[11px] after:left-[40px] after:w-[100%] after:h-[5px] after:border-t-[4px] after:border-dotted after:border-b-blue after:opacity-[0.4] overflow-hidden">
          <div className="w-[24px] h-[24px] rounded-full bg-b-blue mb-[15px]"></div>
          <p className="text-24 font-700 mb-[5px]">Ideate</p>
          <p className="">Turn your idea from concept to MVP</p>
         </li>
-        <li className="relative after:absolute after:top-[11px] after:left-[40px] after:w-[100%] after:h-[5px] after:border-t-[4px] after:border-dotted after:border-y-b-blue after:opacity-[0.4] overflow-hidden">
+        <li className="relative after:absolute after:top-[11px] after:left-[40px] after:w-[100%] after:h-[5px] after:border-t-[4px] after:border-dotted after:border-b-blue after:opacity-[0.4] overflow-hidden">
          <div className="w-[24px] h-[24px] rounded-full bg-b-blue mb-[15px]"></div>
          <p className="text-24 font-700 mb-[5px]">Ideate</p>
          <p className="">Turn your idea from concept to MVP</p>
         </li>
-        <li className="relative after:absolute after:top-[11px] after:left-[40px] after:w-[100%] after:h-[5px] after:border-t-[4px] after:border-dotted after:border-y-b-blue after:opacity-[0.4] overflow-hidden">
+        <li className="relative after:absolute after:top-[11px] after:left-[40px] after:w-[100%] after:h-[5px] after:border-t-[4px] after:border-dotted after:border-b-blue after:opacity-[0.4] overflow-hidden">
          <div className="w-[24px] h-[24px] rounded-full bg-b-blue mb-[15px]"></div>
          <p className="text-24 font-700 mb-[5px]">Ideate</p>
          <p className="">Turn your idea from concept to MVP</p>
         </li>
-        <li className="overflow-hidden">
+        <li className="relative after:absolute after:top-[11px] after:left-[40px] after:w-[100%] after:h-[5px] after:border-t-[4px] after:border-dotted after:border-transp after:opacity-[0.4] overflow-hidden max-[576px]:after:border-b-blue">
          <div className="w-[24px] h-[24px] rounded-full bg-b-blue mb-[15px]"></div>
          <p className="text-24 font-700 mb-[5px]">Ideate</p>
          <p className="">Turn your idea from concept to MVP</p>
@@ -147,39 +147,40 @@ function Home() {
      <Container>
       <div className="flex flex-col">
        <h2 className="title text-center mb-[24px]">
-        The Is Closing Headline To Make A<br /> Impact For Call To Action
+        The Is Closing Headline To Make A<br className="max-[992px]:hidden" />{' '}
+        Impact For Call To Action
        </h2>
        <p className="text-center mb-[60px]">
         Nowadays, it isn't uncommon to see lenders rapidly adopting a digital
         lending strategy to streamline
-        <br /> the lending process nowadays, it isn't uncommon to see lenders
-        rapidly
+        <br className="max-[992px]:hidden" /> the lending process nowadays, it
+        isn't uncommon to see lenders rapidly
        </p>
        <a href="#" className="btn self-center mb-[40px]">
         Book A Meeting
        </a>
        <hr className="h-[2px] bg-[#B4B4B4] border-none mb-[50px]" />
-       <div className="flex justify-center gap-[30px]">
+       <div className="flex justify-center flex-wrap gap-[30px]">
         <img
-         className="h-[28px]"
+         className="h-[28px] max-[576px]:h-[20px]"
          src="/assets/img/svg/philips.svg"
          alt=""
          loading="lazy"
         />
         <img
-         className="h-[28px]"
+         className="h-[28px] max-[576px]:h-[20px]"
          src="/assets/img/svg/philips.svg"
          alt=""
          loading="lazy"
         />
         <img
-         className="h-[28px]"
+         className="h-[28px] max-[576px]:h-[20px]"
          src="/assets/img/svg/philips.svg"
          alt=""
          loading="lazy"
         />
         <img
-         className="h-[28px]"
+         className="h-[28px] max-[576px]:h-[20px]"
          src="/assets/img/svg/philips.svg"
          alt=""
          loading="lazy"
