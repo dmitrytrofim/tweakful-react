@@ -1,5 +1,6 @@
 import { Container } from './common';
 import { Link } from 'react-router-dom';
+import ThemeSwitcher from './themeswitcher';
 
 function Header({ cls }: { cls: string }) {
  return (
@@ -32,7 +33,7 @@ function Header({ cls }: { cls: string }) {
        </ul>
       </nav>
      </div>
-     <button className="">theme</button>
+     <ThemeSwitcher />
     </div>
    </Container>
   </header>

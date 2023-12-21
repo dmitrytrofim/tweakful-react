@@ -46,6 +46,10 @@ export default {
   lineHeight: {
    n: 'normal',
   },
+  backgroundImage: {
+   'theme-light': 'url(/assets/img/svg/sprite.svg#light)',
+   'theme-dark': 'url(/assets/img/svg/sprite.svg#dark)',
+  },
  },
  plugins: [],
 };

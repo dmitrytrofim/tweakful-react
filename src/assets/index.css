@@ -28,6 +28,21 @@
  --bg-gray: #b4b4b4;
  --bg-lightgray: #e7ebfc;
 }
+:root.dark {
+ --tx-black: #fff;
+ --tx-white: #fff;
+ --tx-dark: #fff;
+ --tx-dark2: #fff;
+ --tx-blue: #2e4fd7;
+ --tx-gray: #64626a;
+
+ --bg-black: #000;
+ --bg-dark: #191919;
+ --bg-white: #000;
+ --bg-blue: #2e4fd7;
+ --bg-gray: #191919;
+ --bg-lightgray: #191919;
+}
 
 @media screen and (max-width: 768px) {
  :root {
