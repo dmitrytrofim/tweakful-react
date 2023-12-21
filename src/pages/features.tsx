@@ -8,12 +8,12 @@ import { Splide, SplideSlide } from '../../node_modules/@splidejs/react-splide';
 export default function Features() {
  return (
   <Wrapper>
-   <Header cls="mb-[100px]" />
+   <Header cls="mb-[100px] max-[768px]:mb-[30px]" />
    <main>
     <Greet title="Future is now!" />
     <section className="mb-[200px] max-[768px]:mb-[100px]">
      <Container>
-      <div className="flex justify-between gap-[130px]">
+      <div className="flex justify-between gap-[40px_130px] max-[1200px]:flex-col">
        <div className="">
         <h2 className="title text-42 mb-[10px]">Headline Sample</h2>
         <p className="leading-[1.5] mb-[30px]">
@@ -22,7 +22,7 @@ export default function Features() {
          high-quality design system for mobile, tablet & desktop devices a few
          reasons digital
         </p>
-        <div className="flex gap-[80px]">
+        <div className="flex gap-[80px] max-[576px]:gap-[20px]">
          <p className="w-[200px] flex flex-col">
           <span className="text-72 font-700">
            18<span className="text-52 font-600">k</span>
@@ -44,7 +44,7 @@ export default function Features() {
         </div>
        </div>
        <ReactPlayer
-        className={'shrink-0 w-[530px] aspect-video'}
+        className={'shrink-0 w-[530px] aspect-video max-[1200px]:w-full'}
         height=""
         width=""
         url="https://www.youtube.com/watch?v=LXb3EKWsInQ"
@@ -58,8 +58,8 @@ export default function Features() {
       <h2 className="title mb-[70px]">
        Headline of Modern and Digital Platform
       </h2>
-      <div className="flex items-center gap-[30px]">
-       <ul className="grid grid-cols-[260px_260px] gap-[30px]">
+      <div className="flex items-center gap-[50px_30px] max-[1200px]:flex-col max-[1200px]:items-start">
+       <ul className="grid grid-cols-[260px_260px] gap-[30px] max-[992px]:grid-cols-2 max-[576px]:grid-cols-1">
         <li className="">
          <svg className="w-[40px] h-[40px] mb-[16px]">
           <use xlinkHref="/assets/img/svg/sprite.svg#headline-1"></use>

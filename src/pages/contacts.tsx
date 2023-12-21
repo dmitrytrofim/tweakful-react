@@ -9,14 +9,14 @@ export default function Contacts() {
    <main className="">
     <section className="h-full bg-b-lightgray">
      <Container padding="px-[10px] py-[100px]">
-      <div className="flex justify-between">
-       <div className="max-w-[480px]">
+      <div className="flex justify-between gap-[50px_20px] max-[992px]:flex-col max-[992px]:items-center">
+       <div className="max-w-[480px] flex flex-col max-[992px]:items-center max-[992px]:text-center">
         <h2 className="title text-64 mb-[30px]">Contact Us</h2>
-        <p className="text-20 leading-[1.6] text-t-gray mb-[100px]">
+        <p className="text-20 leading-[1.6] text-t-gray mb-[100px] max-[992px]:mb-[50px]">
          If you have any questions about the subscription or are not sure which
          plan is right for you, contact our team and let's schedule a call.
         </p>
-        <div className="flex items-center gap-[30px]">
+        <div className="flex items-center gap-[15px_30px] max-[576px]:flex-col">
          <a
           href="#"
           className="flex flex-col gap-[8px] text-14 text-t-white border-[1px] border-b-blue bg-b-blue py-[15px] px-[20px]"
@@ -33,14 +33,14 @@ export default function Contacts() {
          </a>
         </div>
        </div>
-       <div className="max-w-[490px] bg-b-white border-[1px] border-b-gray pt-[36px] pb-[26px] px-[30px]">
+       <div className="max-w-[490px] bg-b-white border-[1px] border-b-gray pt-[36px] pb-[26px] px-[30px] max-[576px]:px-[10px]">
         <p className="text-28 font-600 mb-[28px]">Let's Talk</p>
         <p className="text-18 text-t-gray leading-[1.6] mb-[40px]">
          If you have any question or issue's to use our product. Fill the form
          below. We'll help you.
         </p>
         <form action="#">
-         <div className="flex justify-between gap-[20px] mb-[24px]">
+         <div className="flex justify-between gap-[20px] mb-[24px] max-[400px]:flex-col">
           <label className="flex flex-col gap-[11px]">
            <span className="">Your name*</span>
            <input
