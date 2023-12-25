@@ -1,28 +1,30 @@
 import { useState, useEffect, useRef } from 'react';
 
 export default function ThemeSwitcher() {
- const [theme, setTheme] = useState<string>('');
- const btnSwitch = useRef(null);
+ const [theme, setTheme] = useState<string>('light');
+ const btnSwitch = useRef<HTMLButtonElement>(null!);
+
  const changeTheme = () => {
-  const switchTheme = theme == '' ? 'dark' : '';
-  setTheme(switchTheme);
-  localStorage.setItem('theme', switchTheme);
-  // theme == '' ? 'bg-theme-dark' : 'bg-theme-light'
+  setTheme(theme == 'light' ? 'dark' : 'light');
+  localStorage.setItem('theme', theme == 'dark' ? 'light' : 'dark');
  };
+
  useEffect(() => {
   const startTheme = localStorage.getItem('theme');
-  // btnSwitch.current.value = 'test';
-  if (startTheme) {
-   document.documentElement.className = startTheme;
+  document.documentElement.setAttribute('data-theme', theme);
+  if (startTheme == 'dark') {
+   btnSwitch.current.classList.remove('bg-theme-dark');
+   btnSwitch.current.classList.add('bg-theme-light');
   } else {
-   document.documentElement.className = '';
+   btnSwitch.current.classList.remove('bg-theme-light');
+   btnSwitch.current.classList.add('bg-theme-dark');
   }
- });
+ }, [theme]);
 
  return (
   <button
    ref={btnSwitch}
-   className={`w-[24px] h-[24px] flex border-[1px] border-b-dark shadow-[0px_0px_1px_1px_#fff] ${btnSwitch}`}
+   className={`w-[24px] h-[24px]  border-[1px] shadow-[0_0_1px_1px_#fff]`}
    onClick={changeTheme}
   ></button>
  );

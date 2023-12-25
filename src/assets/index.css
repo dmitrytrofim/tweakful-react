@@ -28,7 +28,7 @@
  --bg-gray: #b4b4b4;
  --bg-lightgray: #e7ebfc;
 }
-:root.dark {
+:root[data-theme='dark'] {
  --tx-black: #fff;
  --tx-white: #fff;
  --tx-dark: #fff;
