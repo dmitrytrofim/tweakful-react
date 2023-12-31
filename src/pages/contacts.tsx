@@ -3,7 +3,6 @@ import Footer from '../components/footer';
 import Header from '../components/header';
 
 export default function Contacts() {
- const crtTheme: any = localStorage.getItem('theme');
  return (
   <Wrapper>
    <Header />
@@ -22,15 +21,14 @@ export default function Contacts() {
           href="#"
           className="flex flex-col gap-[8px] text-14 text-t-white border-[1px] border-b-blue bg-b-blue py-[15px] px-[20px]"
          >
-          <span className=" font-600">Call us</span>
+          <span className="font-600">Call us</span>
           <span className="">(669) 984-9439</span>
          </a>
          <a
           href="#"
-          className={`flex flex-col gap-[8px] text-14 text-t-blue bg-[#fff]
-          } border-[1px] border-b-blue py-[15px] px-[20px]`}
+          className={`flex flex-col gap-[8px] text-14 text-t-blue bg-[#fff] border-[1px] border-b-blue py-[15px] px-[20px]`}
          >
-          <span className=" font-600">Email us</span>
+          <span className="font-600">Email us</span>
           <span className="">hello@openthrive.com</span>
          </a>
         </div>
