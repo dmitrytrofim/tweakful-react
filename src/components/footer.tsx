@@ -2,7 +2,7 @@ import { Container } from './common';
 
 function Footer() {
  return (
-  <footer className="bg-b-dark text-t-white">
+  <footer className="bg-[--bg-footer] text-t-white">
    <Container>
     <div className="pt-[70px] pb-[44px]">
      <p className="text-24 font-700 mb-[30px]">Tweakful</p>

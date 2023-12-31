@@ -27,6 +27,9 @@
  --bg-blue: #2e4fd7;
  --bg-gray: #b4b4b4;
  --bg-lightgray: #e7ebfc;
+
+ --bg-arrow: #fff;
+ --bg-footer: #052825;
 }
 :root[data-theme='dark'] {
  --tx-black: #fff;
@@ -42,6 +45,8 @@
  --bg-blue: #2e4fd7;
  --bg-gray: #191919;
  --bg-lightgray: #191919;
+
+ --bg-footer: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -168,12 +173,12 @@ button {
   -webkit-mask-size: contain;
   mask-position: center;
   -webkit-mask-position: center;
-  background: theme('colors.b-white');
+  background: var(--bg-arrow);
  }
 }
 
 .splide__arrow svg {
- fill: var(--bg-white);
+ fill: var(--bg-arrow);
 }
 
 /* 
