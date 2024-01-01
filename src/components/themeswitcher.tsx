@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect, useLayoutEffect } from 'react';
+import { useState, useRef, useLayoutEffect } from 'react';
 
 export default function ThemeSwitcher() {
  const [theme, setTheme] = useState<string>('light');
@@ -9,7 +9,9 @@ export default function ThemeSwitcher() {
   localStorage.setItem('theme', theme == 'light' ? 'dark' : 'light');
  };
 
- useEffect(() => {
+ useLayoutEffect(() => {
+  let startTheme: any = localStorage.getItem('theme');
+  setTheme(startTheme);
   document.documentElement.setAttribute('data-theme', theme);
   if (theme == 'dark') {
    btnSwitch.current.classList.remove('bg-theme-dark');
@@ -19,11 +21,6 @@ export default function ThemeSwitcher() {
    btnSwitch.current.classList.add('bg-theme-dark');
   }
  }, [theme]);
-
- useLayoutEffect(() => {
-  let startTheme: any = localStorage.getItem('theme');
-  setTheme(startTheme);
- }, []);
 
  return (
   <button
