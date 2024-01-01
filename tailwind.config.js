@@ -47,8 +47,8 @@ export default {
    n: 'normal',
   },
   backgroundImage: {
-   'theme-light': 'url(./assets/img/svg/sprite.svg#light)',
-   'theme-dark': 'url(./assets/img/svg/sprite.svg#dark)',
+   'theme-light': 'url(./img/svg/sprite.svg#light)',
+   'theme-dark': 'url(./img/svg/sprite.svg#dark)',
   },
  },
  plugins: [],
