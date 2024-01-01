@@ -68,7 +68,7 @@ export default function Contacts() {
          <div className="flex flex-col gap-[11px] mb-[28px]">
           <span className="">Choose topic*</span>
           <select
-           className={`w-full text-14 border-[2px] border-b-gray p-[12px] appearance-none bg-[url('/assets/img/svg/arr-down.svg')] bg-no-repeat bg-[length:14px] bg-[right_12px_center] cursor-pointer ${colorSelect}`}
+           className={`w-full text-14 border-[2px] border-b-gray p-[12px] appearance-none bg-[url('./assets/img/svg/arr-down.svg')] bg-no-repeat bg-[length:14px] bg-[right_12px_center] cursor-pointer ${colorSelect}`}
            name="sel"
            id=""
            onChange={changeSelect}

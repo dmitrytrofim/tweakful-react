@@ -23,19 +23,19 @@ export default function Greet({ title }: { title: string }) {
       <div className="flex flex-wrap gap-[20px] max-[576px]:justify-center">
        <img
         className="h-[31px] max-[576px]:h-[20px]"
-        src="/assets/img/svg/philips.svg"
+        src="./assets/img/svg/philips.svg"
         alt="Test"
         loading="lazy"
        />
        <img
         className="h-[31px] max-[576px]:h-[20px]"
-        src="/assets/img/svg/philips.svg"
+        src="./assets/img/svg/philips.svg"
         alt="Test"
         loading="lazy"
        />
        <img
         className="h-[31px] max-[576px]:h-[20px]"
-        src="/assets/img/svg/philips.svg"
+        src="./assets/img/svg/philips.svg"
         alt="Test"
         loading="lazy"
        />
@@ -44,7 +44,7 @@ export default function Greet({ title }: { title: string }) {
      <div className="i-wrap shrink-0 w-[460px] max-[992px]:w-full max-[992px]:aspect-video">
       <img
        className="i-full object-top"
-       src="/assets/img/woman-1.webp "
+       src="./assets/img/woman-1.webp "
        alt="Woman"
        loading="lazy"
       />

@@ -11,6 +11,7 @@ export default function ThemeSwitcher() {
 
  useLayoutEffect(() => {
   let startTheme: any = localStorage.getItem('theme');
+  if (!startTheme) localStorage.setItem('theme', 'light');
   setTheme(startTheme);
   document.documentElement.setAttribute('data-theme', theme);
   if (theme == 'dark') {

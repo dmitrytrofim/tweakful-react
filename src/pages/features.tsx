@@ -62,7 +62,7 @@ export default function Features() {
        <ul className="grid grid-cols-[260px_260px] gap-[30px] max-[992px]:grid-cols-2 max-[576px]:grid-cols-1">
         <li className="">
          <svg className="w-[40px] h-[40px] mb-[16px]">
-          <use xlinkHref="/assets/img/svg/sprite.svg#headline-1"></use>
+          <use xlinkHref="./assets/img/svg/sprite.svg#headline-1"></use>
          </svg>
          <p className="text-20 font-500 mb-[8px]">First Feature</p>
          <p className="leading-[1.6]">
@@ -72,7 +72,7 @@ export default function Features() {
         </li>
         <li className="">
          <svg className="w-[40px] h-[40px] mb-[16px]">
-          <use xlinkHref="/assets/img/svg/sprite.svg#headline-2"></use>
+          <use xlinkHref="./assets/img/svg/sprite.svg#headline-2"></use>
          </svg>
          <p className="text-20 font-500 mb-[8px]">Second Feature</p>
          <p className="leading-[1.6]">
@@ -82,7 +82,7 @@ export default function Features() {
         </li>
         <li className="">
          <svg className="w-[40px] h-[40px] mb-[16px]">
-          <use xlinkHref="/assets/img/svg/sprite.svg#headline-3"></use>
+          <use xlinkHref="./assets/img/svg/sprite.svg#headline-3"></use>
          </svg>
          <p className="text-20 font-500 mb-[8px]">Third Feature</p>
          <p className="leading-[1.6]">
@@ -92,7 +92,7 @@ export default function Features() {
         </li>
         <li className="">
          <svg className="w-[40px] h-[40px] mb-[16px]">
-          <use xlinkHref="/assets/img/svg/sprite.svg#shield"></use>
+          <use xlinkHref="./assets/img/svg/sprite.svg#shield"></use>
          </svg>
          <p className="text-20 font-500 mb-[8px]">Fourth Feature</p>
          <p className="leading-[1.6]">
@@ -105,21 +105,21 @@ export default function Features() {
         <SplideSlide>
          <img
           className="w-full h-[300px] object-cover object-center"
-          src="/assets/img/slide-1.webp"
+          src="./assets/img/slide-1.webp"
           alt=""
          />
         </SplideSlide>
         <SplideSlide>
          <img
           className="w-full h-[300px] object-cover object-center"
-          src="/assets/img/slide-2.webp"
+          src="./assets/img/slide-2.webp"
           alt=""
          />
         </SplideSlide>
         <SplideSlide>
          <img
           className="w-full h-[300px] object-cover object-center"
-          src="/assets/img/slide-3.webp"
+          src="./assets/img/slide-3.webp"
           alt=""
          />
         </SplideSlide>

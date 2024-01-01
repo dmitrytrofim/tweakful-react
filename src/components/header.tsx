@@ -14,7 +14,7 @@ function Header({ cls }: { cls: string }) {
       >
        <img
         className="w-[51px] h-[38px] object-contain object-center max-[576px]:w-[40px] max-[576px]:h-[30px]"
-        src="/assets/img/svg/logo.svg"
+        src="./assets/img/svg/logo.svg"
         alt=""
        />
        <span className="text-24 font-700 max-[768px]:hidden">Tweakful</span>

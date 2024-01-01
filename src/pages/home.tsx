@@ -89,7 +89,7 @@ function Home() {
         </p>
         <img
          className="h-[31px] mb-[10px]"
-         src="/assets/img/svg/philips.svg"
+         src="./assets/img/svg/philips.svg"
          alt=""
          loading="lazy"
         />
@@ -99,14 +99,14 @@ function Home() {
         >
          <span>Read Complete Case Study</span>
          <svg className="w-[20px] h-[10px] fill-t-blue">
-          <use xlinkHref="/assets/img/svg/sprite.svg#arr"></use>
+          <use xlinkHref="./assets/img/svg/sprite.svg#arr"></use>
          </svg>
         </a>
        </div>
        <div className="i-wrap shrink-0 w-[380px] max-[992px]:w-full max-[992px]:aspect-video">
         <img
          className="i-full object-top"
-         src="/assets/img/woman-2.webp"
+         src="./assets/img/woman-2.webp"
          alt=""
          loading="lazy"
         />
@@ -163,25 +163,25 @@ function Home() {
        <div className="flex justify-center flex-wrap gap-[30px]">
         <img
          className="h-[28px] max-[576px]:h-[20px]"
-         src="/assets/img/svg/philips.svg"
+         src="./assets/img/svg/philips.svg"
          alt=""
          loading="lazy"
         />
         <img
          className="h-[28px] max-[576px]:h-[20px]"
-         src="/assets/img/svg/philips.svg"
+         src="./assets/img/svg/philips.svg"
          alt=""
          loading="lazy"
         />
         <img
          className="h-[28px] max-[576px]:h-[20px]"
-         src="/assets/img/svg/philips.svg"
+         src="./assets/img/svg/philips.svg"
          alt=""
          loading="lazy"
         />
         <img
          className="h-[28px] max-[576px]:h-[20px]"
-         src="/assets/img/svg/philips.svg"
+         src="./assets/img/svg/philips.svg"
          alt=""
          loading="lazy"
         />
