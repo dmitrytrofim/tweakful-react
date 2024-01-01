@@ -141,14 +141,18 @@ button {
   object-fit: cover;
   object-position: center;
  }
- /* //@mark title */
+ /* 
+  @mark title 
+ */
  .title {
   font-size: theme('fontSize.52');
   font-weight: theme('fontWeight.700');
   line-height: 1.2;
   text-transform: capitalize;
  }
- /* //@mark btn */
+ /* 
+  @mark btn
+ */
  .btn {
   position: relative;
   display: inline-flex;

@@ -1,8 +1,13 @@
+import { useState } from 'react';
 import { Container, Wrapper } from '../components/common';
 import Footer from '../components/footer';
 import Header from '../components/header';
 
 export default function Contacts() {
+ const [colorSelect, setColorSelect] = useState('text-[#9ca3af]');
+ const changeSelect = (e: any) => {
+  if (e.target.value !== '') setColorSelect('text-[#000]');
+ };
  return (
   <Wrapper>
    <Header />
@@ -44,7 +49,7 @@ export default function Contacts() {
           <label className="flex flex-col gap-[11px]">
            <span className="">Your name*</span>
            <input
-            className="w-full text-14 border-[2px] border-b-gray p-[12px]"
+            className="w-full text-14 text-[#000] border-[2px] border-b-gray p-[12px]"
             name="name"
             type="text"
             placeholder="Enter your name"
@@ -53,7 +58,7 @@ export default function Contacts() {
           <label className="flex flex-col gap-[11px]">
            <span className="">Your email*</span>
            <input
-            className="w-full text-14 border-[2px] border-b-gray p-[12px]"
+            className="w-full text-14 text-[#000] border-[2px] border-b-gray p-[12px]"
             type="email"
             placeholder="Enter your email"
            />
@@ -62,16 +67,26 @@ export default function Contacts() {
          <div className="flex flex-col gap-[11px] mb-[28px]">
           <span className="">Choose topic*</span>
           <select
-           className="w-full text-14 border-[2px] border-b-gray p-[12px] appearance-none bg-[url('/assets/img/svg/arr-down.svg')] bg-no-repeat bg-[length:14px] bg-[right_12px_center] cursor-pointer"
+           className={
+            `w-full text-14 border-[2px] border-b-gray p-[12px] appearance-none bg-[url('/assets/img/svg/arr-down.svg')] bg-no-repeat bg-[length:14px] bg-[right_12px_center] cursor-pointer ` +
+            colorSelect
+           }
            name="sel"
            id=""
+           onClick={changeSelect}
           >
            <option className="hidden" value="">
             Select one topic
            </option>
-           <option value="">1</option>
-           <option value="">2</option>
-           <option value="">3</option>
+           <option className="text-[#000]" value="1">
+            1
+           </option>
+           <option className="text-[#000]" value="2">
+            2
+           </option>
+           <option className="text-[#000]" value="3">
+            3
+           </option>
           </select>
          </div>
          <button
